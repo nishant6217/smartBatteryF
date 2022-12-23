@@ -24,8 +24,16 @@
   color: white;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .App-link {
   color: #61dafb;
+}
+*{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 @keyframes App-logo-spin {
