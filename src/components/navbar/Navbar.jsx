@@ -66,7 +66,7 @@ export default function Navbar(props) {
                         <ListItem key={text} disablePadding>
                             <ListItemButton onClick={() => handleListCLick(index)}>
                                 <ListItemIcon>
-                                    {index == 0 && <DashboardIcon htmlColor="white" /> || index == 1 && <PowerIcon htmlColor="white" /> || index == 2 && <SettingsIcon htmlColor="white" />}
+                                    {index == 0 && <DashboardIcon htmlColor="white" /> || index == 1 && <PowerIcon htmlColor="white" /> || index == 2 && <SettingsIcon htmlColor="white" /> || index == 3&& <SettingsIcon htmlColor="white" /> || index == 4 && <SettingsIcon htmlColor="white" />}
                                 </ListItemIcon>
                                 <ListItemText htmlColor='primary' primary={<Typography style={{ color: '#D8DDE5' }}>{text}</Typography>} />
                             </ListItemButton>
